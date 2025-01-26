@@ -3,6 +3,7 @@ import pandas as pd
 # Read the CSV data
 df = pd.read_csv('ApplianceWorld.csv', delimiter=';')
 
+df.to_csv('ApplianceWorld.csv', index=False) 
 
 print(df.head)
 
