@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the CSV data
-df = pd.read_csv('ApplianceWorld.csv', delimiter=';')
+df = pd.read_excel('ApplianceWorld.xlsx', delimiter=';')
 
 df.to_csv('ApplianceWorld.csv', index=False) 
 
